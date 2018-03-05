@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "name": "Joel Herold",
+    "label": "Senior Frontend Developer",
+    "picture": "",
+    "email": "joel.herold@gmail.com",
+    "phone": "724-991-0910",
+    "website": "http://joelherold.work",
+    "summary": "Accomplished developer, entrepreneur at heart, and retired opera singer. My work is a creative outlet, executed with precision and authenticity.",
+    "location": {
+      "address": "",
+      "postalCode": "11225",
+      "city": "Brooklyn",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "operapreneur",
+      "url": "http://twitter.com/operapreneur"
+    }]
+  },
+  "work": [{
+    "path": [
+      "Developer"
+    ],
+    "company": "Area 23",
+    "position": "Senior Creative Technologist and Technoogy Lead",
+    "website": "",
+    "startDate": "2016-01-20",
+    "endDate": "",
+    "summary": "Description...",
+    "highlights": [
+      "Highlight"
+    ]
+  },
+  {
+    "path": [
+      "Developer"
+    ],
+    "company": "Great Believer",
+    "position": "Frontend Developer",
+    "website": "",
+    "startDate": "2014-05-01",
+    "endDate": "2016-05-01",
+    "summary": "Description...",
+    "highlights": [
+      "Highlight"
+    ]
+  },
+  {
+    "path": [
+      "Developer"
+    ],
+    "company": "Freelance Developer",
+    "position": "Frontend Developer and UX Designer",
+    "website": "",
+    "startDate": "2011-08-01",
+    "endDate": "2016-05-01",
+    "summary": "Description...",
+    "highlights": [
+      "Highlight"
+    ]
+  },
+  {
+    "path": [
+      "Music",
+      "Developer"
+    ],
+    "company": "OperaPulse",
+    "position": "Founder and CEO",
+    "website": "",
+    "startDate": "2009-04-01",
+    "pivotDate": "2011-08-01",
+    "endDate": "",
+    "summary": "Description...",
+    "highlights": [
+      "Highlight"
+    ]
+  },
+  {
+    "path": [
+      "Music"
+    ],
+    "company": "Opera Singer",
+    "position": "President",
+    "website": "",
+    "startDate": "2007-01-01",
+    "endDate": "2016-05-01",
+    "summary": "Description...",
+    "highlights": [
+      "Highlight"
+    ]
+  }],
+  "education": [{
+    "institution": "University of Tennessee",
+    "area": "Music Performance",
+    "studyType": "Masters",
+    "startDate": "2005-08-01",
+    "endDate": "2007-05-01",
+    "gpa": ""
+  },
+  {
+    "institution": "Carnegie Mellon University",
+    "area": "Vocal Performance",
+    "studyType": "BFA",
+    "startDate": "2001-08-01",
+    "endDate": "2005-05-01",
+    "gpa": ""
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}

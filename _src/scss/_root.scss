@@ -1,0 +1,13 @@
+html {
+  @include font-regular;
+}
+b{
+  @include font-bold;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
