@@ -23,21 +23,29 @@ const onError = function (error) {
 // import tasks
 
 requireDir('./gulp-tasks');
-  // sass-tasks
-    // compile_sass
-    // watch_sass
-  // js-tasks
-    // watch_js
-  // browser-tasks
-    // browser_serve
-    // browser_reload
+├── browser_serve
+├── browser_reload
+├── compile_js
+├── watch_js
+├── watch_jsAssets
+├── compile_sass
+├── watch_sass
+└─┬ default
+  └─┬ <series>
+    ├── compile_sass
+    ├── compile_js
+    ├── browser_serve
+    └─┬ <parallel>
+      ├── watch_sass
+      ├── watch_js
+      └── watch_jsAssets
 
 
 //////////////////////////////////////////////////////////////////
 // default
 
 gulp.task('default',
-  gulp.series('compile_sass', 'browser_serve',
-    gulp.parallel('watch_sass', 'watch_js')
+  gulp.series('compile_sass', 'compile_js', 'browser_serve',
+    gulp.parallel('watch_sass', 'watch_js', 'watch_jsAssets')
   )
 );
